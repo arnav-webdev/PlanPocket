@@ -1080,7 +1080,7 @@
       doc.text("Student Budget Report", 10, y); y += 7;
 
       doc.setFontSize(11);
-      doc.text("Student: " ₹ currentUser, 10, y); y += 6;
+      doc.text("Student: " + currentUser, 10, y); y += 6;
       doc.text("Income: ₹" + (student.income || 0), 10, y); y += 6;
       doc.text("Total expenses: ₹" + totalExpense, 10, y); y += 6;
       doc.text("Balance: ₹" + balance, 10, y); y += 8;
